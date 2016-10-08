@@ -510,6 +510,7 @@ public class NiceRecyclerView extends FrameLayout {
         mHeaderAndFooterWrapper.setInnerAdapter(mInnerAdapter);
         mHeaderAndFooterWrapper.addHeaderView(headerView);
         mLoadMoreWrapper.setInnerAdapter(mHeaderAndFooterWrapper);
+        mLoadMoreWrapper.registerAdapterDataObserver(new EasyDataObserver(this));
         mRecycler.setAdapter(mLoadMoreWrapper);
     }
 
@@ -526,6 +527,7 @@ public class NiceRecyclerView extends FrameLayout {
         mHeaderAndFooterWrapper.setInnerAdapter(mInnerAdapter);
         mHeaderAndFooterWrapper.addFootView(footerView);
         mLoadMoreWrapper.setInnerAdapter(mHeaderAndFooterWrapper);
+        mLoadMoreWrapper.registerAdapterDataObserver(new EasyDataObserver(this));
         mRecycler.setAdapter(mLoadMoreWrapper);
     }
 

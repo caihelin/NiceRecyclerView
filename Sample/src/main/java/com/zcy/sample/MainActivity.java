@@ -23,6 +23,7 @@ import com.zcy.sample.activity.HeaderAndFooterViewActivity;
 import com.zcy.sample.activity.ListDragMenuActivity;
 import com.zcy.sample.activity.ListDragSwipeActivity;
 import com.zcy.sample.activity.LoadMoreActivity;
+import com.zcy.sample.activity.NoDataActivity;
 import com.zcy.sample.activity.SwipeRefreshLayoutActivity;
 import com.zcy.sample.activity.VerticalMenuActivity;
 import com.zcy.sample.activity.ViewPagerMenuActivity;
@@ -135,6 +136,9 @@ public class MainActivity extends BaseActivity implements MultiItemTypeAdapter.O
                 break;
             case 12:
                 intent = new Intent(context, AllViewsActivity.class);
+                break;
+            case 13:
+                intent = new Intent(context, NoDataActivity.class);
                 break;
         }
         if (null != intent) {

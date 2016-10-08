@@ -14,6 +14,7 @@
         <item>添加HeaderView和FooterView</item>
         <item>HeaderView和FooterView嵌套LoadMore</item>
         <item>EmptyView结合ErrorView以及ProgressView使用</item>
+        <item>支持任意布局的刷新</item>
     </string-array>
     <string-array name="main_item_des">
         <item>可以左右滑动，两遍边都可以滑出来菜单。</item>
@@ -29,5 +30,6 @@
         <item>通过HeaderAndFooterWrapper实现为RecyclerView添加HeaderView和FooterView的功能。</item>
         <item>通过HeaderAndFooterWrapper以及LoadMoreWrapper实现为RecyclerView添加HeaderView和FooterView，同时实现加载更多的功能。</item>
         <item>动态地为RecyclerView添加EmptyView，ErrorView以及ProgressView。</item>
+        <item>NiceRecyclerView原则上支持任意布局的刷新操作</item>
     </string-array>
 </resources>
