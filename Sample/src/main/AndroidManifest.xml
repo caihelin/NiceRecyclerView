@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.zcy.sample">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zcy.sample">
 
-    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -10,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.AllViewsActivity" />
+        <activity android:name=".activity.AllMenuActivity" />
+        <activity android:name=".activity.DefineActivity" />
+        <activity android:name=".activity.DragSwipeFlagsActivity" />
+        <activity android:name=".activity.GridDragMenuActivity" />
+        <activity android:name=".activity.HeaderAndFooterViewActivity" />
+        <activity android:name=".activity.ListDragMenuActivity" />
+        <activity android:name=".activity.ListDragSwipeActivity" />
+        <activity android:name=".activity.LoadMoreActivity" />
+        <activity android:name=".activity.SwipeRefreshLayoutActivity" />
+        <activity android:name=".activity.VerticalMenuActivity" />
+        <activity android:name=".activity.ViewPagerMenuActivity" />
+        <activity android:name=".activity.ViewTypeMenuActivity" />
     </application>
 
 </manifest>
