@@ -84,8 +84,10 @@ compile 'com.zcy:nicerecyclerview:1.0.0-bate'
         niceRecyclerView.setSwipeMenuItemClickListener(menuItemClickListener);
         niceRecyclerView.setAdapter(adapter);
   ```      
-其中，R.layout.layout_item_allmenu为Item的布局文件，listData为数据集，
-swipeMenuCreator为菜单创建器，menuItemClickListener为菜单单击事件
+其中，`R.layout.layout_item_allmenu`为`Item`的布局文件，`listData`为数据集，
+`swipeMenuCreator`为菜单创建器，`menuItemClickListener`为菜单单击事件。
+如果不想使用`CommAdapter`，而你自己构建`Adapter`的话，要想成功构建菜单，
+请让你的`Adapter`继承`SwipeMenuAdapter`，重写相关方法即可。
 
 ### 创建菜单
 ```
@@ -450,24 +452,24 @@ niceRecyclerView.setRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
  niceRecyclerView.setProgressView(progressView);
  niceRecyclerView.setErrorView(errorView);
  ```
-* 根据自己的界面逻辑，让NiceRecyclerView显示不同的界面
-niceRecyclerView.showEmpty();   or   niceRecyclerView.showProgress();   or   
-niceRecyclerView.showError();    or  niceRecyclerView.showRecycler();
+* 根据自己的界面逻辑，让`NiceRecyclerView`显示不同的界面
+`niceRecyclerView.showEmpty();`   or   `niceRecyclerView.showProgress();`   or   
+`niceRecyclerView.showError();`    or  `niceRecyclerView.showRecycler();`
 
 ## 使用注意事项
 
-NiceRecyclerView并不是RecyclerView，它是一系列控件的封装，
-使用NiceRecyclerView通知界面重绘时不能使用它的Adapter来完成，
-而应该通过调用niceRecyclerView.notifyItemRemoved(position);
-niceRecyclerView.notifyItemMoved(fromPosition, toPosition);
-niceRecyclerView.notifyDataSetChanged();
-等一系列这样的api来完成，即以前adapter的工作现
-在交给niceRecyclerView自己来完成
-具体使用请参考sample中的示例                                      
+`NiceRecyclerView`并不是`RecyclerView`，它是一系列控件的封装，
+使用`NiceRecyclerView`通知界面重绘时不能使用它的`Adapter`来完成，
+而应该通过调用`niceRecyclerView.notifyItemRemoved(position);`
+`niceRecyclerView.notifyItemMoved(fromPosition, toPosition);`
+`niceRecyclerView.notifyDataSetChanged();`
+等一系列这样的api来完成，即以前`adapter`的工作现
+在交给`niceRecyclerView`自己来完成
+具体使用请参考`sample`中的示例                                      
 
 ## 写在最后
 
-* NiceRecyclerView中的源码并非原创，只是将大神们功能较全的代码做了整合，方便调用
+* `NiceRecyclerView`中的源码并非原创，只是将大神们功能较全的代码做了整合，方便调用
 
 * 感谢大神们
 1. [张鸿洋](http://blog.csdn.net/lmj623565791/)
