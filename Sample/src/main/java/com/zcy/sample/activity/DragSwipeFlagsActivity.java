@@ -55,7 +55,7 @@ public class DragSwipeFlagsActivity extends BaseActivity {
         niceRecyclerView.setLayoutManager(new LinearLayoutManager(this));// 布局管理器。
         niceRecyclerView.setHasFixedSize(true);// 如果Item够简单，高度是确定的，打开FixSize将提高性能。
         niceRecyclerView.setItemAnimator(new DefaultItemAnimator());// 设置Item默认动画，加也行，不加也行。
-        niceRecyclerView.setLongPressDragEnabled(true);// 开启长安拖拽。
+        niceRecyclerView.setLongPressDragEnabled(true);// 开启长按拖拽。
         niceRecyclerView.setItemViewSwipeEnabled(true);// 开启滑动删除。
         niceRecyclerView.setOnItemMoveListener(onItemMoveListener);// 监听拖拽，更新UI。
         niceRecyclerView.setOnItemMovementListener(onItemMovementListener);

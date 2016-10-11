@@ -100,12 +100,11 @@ public class AllMenuActivity extends BaseActivity {
         niceRecyclerView.setItemAnimator(new DefaultItemAnimator());// 设置Item默认动画，加也行，不加也行。
 //        niceRecyclerView.addItemDecoration(new DividerDecoration(
 //                mContext.getResources().getColor(R.color.purple_pressed), 2));// 添加分割线。
-        // 为SwipeRecyclerView的Item创建菜单就两句话，不错就是这么简单：
+        // 为niceRecyclerView的Item创建菜单就两句话，不错就是这么简单：
         // 设置菜单创建器。
         niceRecyclerView.setSwipeMenuCreator(swipeMenuCreator);
         // 设置菜单Item点击监听。
         niceRecyclerView.setSwipeMenuItemClickListener(menuItemClickListener);
-        // 添加头部和尾部View
         niceRecyclerView.setAdapter(adapter);
     }
 

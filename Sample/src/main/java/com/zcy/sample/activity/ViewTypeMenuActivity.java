@@ -117,7 +117,7 @@ public class ViewTypeMenuActivity extends BaseActivity {
 
             @Override
             public void convert(ViewHolder holder, ViewTypeBean viewTypeBean, int position) {
-
+                // TODO: 2016/10/11  如果界面不同请复写该方法
             }
         });
         adapter.addItemViewDelegate(SwipeMenuAdapter.VIEW_TYPE_MENU_MULTI, new ItemViewDelegate<ViewTypeBean>() {
@@ -133,7 +133,7 @@ public class ViewTypeMenuActivity extends BaseActivity {
 
             @Override
             public void convert(ViewHolder holder, ViewTypeBean viewTypeBean, int position) {
-
+                // TODO: 2016/10/11  如果界面不同请复写该方法
             }
         });
         adapter.addItemViewDelegate(SwipeMenuAdapter.VIEW_TYPE_MENU_NONE, new ItemViewDelegate<ViewTypeBean>() {
@@ -149,7 +149,7 @@ public class ViewTypeMenuActivity extends BaseActivity {
 
             @Override
             public void convert(ViewHolder holder, ViewTypeBean viewTypeBean, int position) {
-
+                // TODO: 2016/10/11  如果界面不同请复写该方法
             }
         });
         adapter.addItemViewDelegate(SwipeMenuAdapter.VIEW_TYPE_MENU_SINGLE, new ItemViewDelegate<ViewTypeBean>() {
@@ -165,7 +165,7 @@ public class ViewTypeMenuActivity extends BaseActivity {
 
             @Override
             public void convert(ViewHolder holder, ViewTypeBean viewTypeBean, int position) {
-
+                // TODO: 2016/10/11  如果界面不同请复写该方法
             }
         });
         niceRecyclerView.setAdapter(adapter);
