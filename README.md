@@ -15,23 +15,14 @@
 不说话，先看图
 
 <img src="gif/11.gif">
-
 <img src="gif/12.gif">
-
 <img src="gif/13.gif">
-
 <img src="gif/14.gif">
-
 <img src="gif/15.gif">
-
 <img src="gif/16.gif">
-
 <img src="gif/17.gif">
-
 <img src="gif/18.gif">
-
 <img src="gif/19.gif">
-
 <img src="gif/20.gif">
 
 看图可知，这个库的作用：
