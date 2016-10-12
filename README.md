@@ -13,16 +13,16 @@
 ## 先上一波效果图
     
 不说话，先看图
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/11.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/12.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/13.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/14.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/15.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/16.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/17.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/18.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/19.gif)
-![gif](https://github.com/PureAway/NiceRecyclerView/tree/master/gif/20.gif)
+
+<img src="gif/11.gif">
+<img src="gif/12.gif">
+<img src="gif/13.gif">
+<img src="gif/14.gif">
+<img src="gif/15.gif">
+<img src="gif/16.gif">
+<img src="gif/17.gif">
+<img src="gif/18.gif">
+<img src="gif/19.gif">
 
 看图可知，这个库的作用：
 
