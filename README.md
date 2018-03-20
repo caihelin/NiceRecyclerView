@@ -33,7 +33,7 @@
 * AndroidStudio引入(Eclipse用户爱莫能助)
 ```
 dependencies {
-compile 'com.zcy:nicerecyclerview:1.0.0-bate'
+compile 'com.zcy:nicerecyclerview:1.0.10'
    ...
 }
  ```
